@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+}
+
+main{
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+} 
+
+/*le header*/
+
+header{
+    display:flex;
+    justify-content: center;
+}
+
+/*la partie du milieu*/
+
+section{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+article{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+/*les menus*/
+
+img{
+    display:grid;
+    justify-content:space-evenly;
+    text-align:center;
+}
+
+/*bouton prochainement*/
+
+aside{
+    display:flex;
+    justify-content: center;
+}
+
+/*Footer et boutons de navigations en bas de pages*/
+
+footer{
+    display:flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
