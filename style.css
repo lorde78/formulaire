@@ -1,3 +1,13 @@
+@font-face{
+    font-family: 'SourceSansPro-Regular';
+    src: url('font/SourceSansPro-Regular.otf');
+}
+
+@font-face{
+    font-family: 'SourceSansPro-Semibold';
+    src: url('font/SourceSansPro-Semibold.otf');
+}
+
 body{
     margin: auto;
 }
@@ -6,6 +16,7 @@ main{
     margin:auto;
     display:flex;
     flex-direction:column;
+    font-family: 'SourceSansPro-Regular';
 } 
 
 /*le header*/
@@ -13,6 +24,9 @@ main{
 header{
     display:flex;
     justify-content: center;
+    font-family: 'SourceSansPro-Semibold';
+    background-color:#579C87;
+    color: #FDCB46;
 }
 
 /*la partie du milieu*/
@@ -49,9 +63,16 @@ aside{
 footer{
     display:flex;
     flex-direction: column;
+    background-color:#579C87;
+    
 }
 
 nav{
     display: flex;
     justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FDCB46;
 }
