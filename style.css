@@ -8,11 +8,21 @@
     src: url('font/SourceSansPro-Semibold.otf');
 }
 
-body{
-    margin: auto;
+@font-face{
+    font-family: 'Grotesk Medium';
+    src: url('font/Grotesk Medium.ttf');
 }
 
-main{
+@font-face{
+    font-family: 'Grotesk Light';
+    src: url('font/Grotesk Light.ttf');
+}
+html{
+    margin:auto;
+    height:auto;
+}
+
+body{
     margin:auto;
     display:flex;
     flex-direction:column;
@@ -26,6 +36,16 @@ header{
     justify-content: center;
     font-family: 'SourceSansPro-Semibold';
     background-color:#579C87;
+}
+
+header h1{
+    font-family: 'Grotesk Medium';
+    font-weight: normal;
+    font-size: 40px;
+}
+
+header a{
+    text-decoration:none;
     color: #FDCB46;
 }
 
@@ -34,22 +54,64 @@ header{
 section{
     display:flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 article{
     display:flex;
     flex-direction:row;
-    justify-content:space-evenly;
+    justify-content:center;
 }
 
 /*les menus*/
 
-img{
-    display:grid;
-    justify-content:space-evenly;
-    text-align:center;
+article h1{
+    display:flex;
+    justify-content: center;
 }
+
+article h2{
+    display:flex;
+    justify-content:center;
+}
+
+article a{
+    text-decoration:none;
+    color:black;
+}
+
+article li{
+    list-style-type: none;
+}
+
+#article1
+{
+    box-shadow: 1px 1px 12px #d0d0d0;
+    width: 200px;
+    height: 260px;
+}
+
+#article2
+{
+    box-shadow: 1px 1px 12px #d0d0d0;
+    width: 200px;
+    height: 260px;
+}
+
+#article3
+{
+    box-shadow: 1px 1px 12px #d0d0d0;
+    width: 200px;
+    height: 260px;
+}
+
+#article4
+{
+    box-shadow: 1px 1px 12px #d0d0d0;
+    width: 200px;
+    height: 260px;
+}
+
+
 
 /*bouton prochainement*/
 
@@ -58,18 +120,32 @@ aside{
     justify-content: center;
 }
 
+#btn{
+    font-family: 'Grotesk Light';
+    background-color:#579C87;
+    color: #FDCB46;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 15px;
+}
+
 /*Footer et boutons de navigations en bas de pages*/
 
 footer{
     display:flex;
     flex-direction: column;
-    background-color:#579C87;
-    
+    background-color:#579C87;   
 }
 
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Grotesk Light';
+    font-size:20px;
 }
 
 nav a{
