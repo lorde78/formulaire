@@ -54,12 +54,14 @@ header a{
 section{
     display:flex;
     flex-direction: column;
+    width: auto;
 }
 
 article{
     display:flex;
     flex-direction:row;
     justify-content:center;
+    flex-wrap:wrap;
 }
 
 /*les menus*/
@@ -88,6 +90,7 @@ article li{
     box-shadow: 1px 1px 12px #d0d0d0;
     width: 200px;
     height: 260px;
+    background-color:#fcdfdb;
 }
 
 #article2
@@ -95,6 +98,7 @@ article li{
     box-shadow: 1px 1px 12px #d0d0d0;
     width: 200px;
     height: 260px;
+    background-color:#fff5fe;
 }
 
 #article3
@@ -102,6 +106,7 @@ article li{
     box-shadow: 1px 1px 12px #d0d0d0;
     width: 200px;
     height: 260px;
+    background-color:#f9f9f9;
 }
 
 #article4
@@ -109,6 +114,7 @@ article li{
     box-shadow: 1px 1px 12px #d0d0d0;
     width: 200px;
     height: 260px;
+    background-color:#f9f9f9;
 }
 
 
@@ -125,7 +131,6 @@ aside{
     background-color:#579C87;
     color: #FDCB46;
     display: flex;
-    justify-content: center;
     font-size: 25px;
     border-radius: 5px 5px 5px 5px;
     margin-bottom: 15px;
