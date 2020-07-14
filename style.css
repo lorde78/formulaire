@@ -23,6 +23,7 @@ html{
 }
 
 body{
+    height: 937px;
     margin:auto;
     display:flex;
     flex-direction:column;
@@ -51,17 +52,17 @@ header a{
 
 /*la partie du milieu*/
 
-section{
+main{
     display:flex;
     flex-direction: column;
     width: auto;
+    height: 940px;
 }
 
 article{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:center;
-    flex-wrap:wrap;
 }
 
 /*les menus*/
@@ -80,41 +81,44 @@ article a{
     text-decoration:none;
     color:black;
 }
+article ul{
+    list-style-type: none;
+    align-self: center;
+    display:flex;
+}
 
 article li{
-    list-style-type: none;
+    display:flex;
+    height: 260px;
+    margin:0 0 0 0;
 }
 
 #article1
 {
     box-shadow: 1px 1px 12px #d0d0d0;
-    width: 200px;
-    height: 260px;
     background-color:#fcdfdb;
+    justify-content:space-between;
 }
 
 #article2
 {
     box-shadow: 1px 1px 12px #d0d0d0;
-    width: 200px;
-    height: 260px;
     background-color:#fff5fe;
+    justify-content:space-between;
 }
 
 #article3
 {
     box-shadow: 1px 1px 12px #d0d0d0;
-    width: 200px;
-    height: 260px;
     background-color:#f9f9f9;
+    justify-content:space-between;
 }
 
 #article4
 {
     box-shadow: 1px 1px 12px #d0d0d0;
-    width: 200px;
-    height: 260px;
     background-color:#f9f9f9;
+    
 }
 
 
@@ -123,7 +127,8 @@ article li{
 
 aside{
     display:flex;
-    justify-content: center;
+    width:auto;
+    justify-content:center;
 }
 
 #btn{
@@ -131,9 +136,17 @@ aside{
     background-color:#579C87;
     color: #FDCB46;
     display: flex;
-    font-size: 25px;
-    border-radius: 5px 5px 5px 5px;
-    margin-bottom: 15px;
+    font-size: 30px;
+    border-radius: 6px 6px 6px 6px;
+    width: 18%;
+    justify-content:center;
+    height:48px;
+}
+
+#btn p{
+  display:flex;
+    align-items:center;
+    margin:0px;
 }
 
 /*Footer et boutons de navigations en bas de pages*/
@@ -141,7 +154,7 @@ aside{
 footer{
     display:flex;
     flex-direction: column;
-    background-color:#579C87;   
+    background-color:#579C87;
 }
 
 nav{
