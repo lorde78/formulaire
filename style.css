@@ -56,13 +56,13 @@ main{
     display:flex;
     flex-direction: column;
     width: auto;
-    height: 940px;
+    height: 806px;
 }
 
 article{
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    height: 90%;
 }
 
 /*les menus*/
@@ -81,16 +81,24 @@ article a{
     text-decoration:none;
     color:black;
 }
+
 article ul{
     list-style-type: none;
-    align-self: center;
+    justify-content: center;
     display:flex;
+
 }
 
 article li{
     display:flex;
+    flex:auto;
+    justify-content:space-evenly;
     height: 260px;
     margin:0 0 0 0;
+}
+
+main footer{
+    flex:1 1 auto;
 }
 
 #article1
@@ -155,6 +163,9 @@ footer{
     display:flex;
     flex-direction: column;
     background-color:#579C87;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 nav{
