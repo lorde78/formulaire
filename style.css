@@ -17,6 +17,7 @@
     font-family: 'Grotesk Light';
     src: url('font/Grotesk Light.ttf');
 }
+
 html{
     margin:auto;
     height:auto;
@@ -56,23 +57,23 @@ main{
     display:flex;
     flex-direction: column;
     width: auto;
-    height: 806px;
 }
 
 article{
-    display:flex;
+    width:50%;
     flex-direction:column;
-    height: 90%;
+    margin:auto;
+    margin-right: 400px;
 }
 
 /*les menus*/
 
-article h1{
+article h2{
     display:flex;
     justify-content: center;
 }
 
-article h2{
+article h3{
     display:flex;
     justify-content:center;
 }
@@ -84,17 +85,15 @@ article a{
 
 article ul{
     list-style-type: none;
-    justify-content: center;
     display:flex;
-
+    flex-flow:wrap;
 }
 
-article li{
+article ul li{
     display:flex;
-    flex:auto;
-    justify-content:space-evenly;
-    height: 260px;
-    margin:0 0 0 0;
+    width:45%;
+    height:260px;
+    margin:1% auto;
 }
 
 main footer{
@@ -129,13 +128,11 @@ main footer{
     
 }
 
-
-
 /*bouton prochainement*/
 
 aside{
     display:flex;
-    width:auto;
+    
     justify-content:center;
 }
 
