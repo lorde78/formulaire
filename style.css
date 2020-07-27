@@ -60,7 +60,7 @@ main{
 }
 
 article{
-    width:50%;
+    width:30%;
     flex-direction:column;
     margin:auto;
 }
@@ -86,13 +86,15 @@ article ul{
     list-style-type: none;
     display:flex;
     flex-flow:wrap;
+    padding: 0px;
+    margin: 0px;
 }
 
 article ul li{
-    display:flex;
-    width:45%;
-    height:260px;
-    margin:1% auto;
+    display: flex;
+    width: 34%;
+    height: 260px;
+    margin: 2% auto;
 }
 
 main footer{
@@ -103,21 +105,21 @@ main footer{
 {
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#fcdfdb;
-    justify-content:space-between;
+    
 }
 
 #article2
 {
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#fff5fe;
-    justify-content:space-between;
+    
 }
 
 #article3
 {
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#f9f9f9;
-    justify-content:space-between;
+    
 }
 
 #article4
