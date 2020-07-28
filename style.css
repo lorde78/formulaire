@@ -77,11 +77,6 @@ article h3{
     justify-content:center;
 }
 
-article a{
-    text-decoration:none;
-    color:black;
-}
-
 article ul{
     list-style-type: none;
     display:flex;
@@ -92,9 +87,11 @@ article ul{
 
 article ul li{
     display: flex;
-    width: 34%;
-    height: 260px;
     margin: 2% auto;
+}
+
+article>ul>li>a, article>ul>li>a:hover, article>ul>li>a:visited{
+    text-decoration: none;
 }
 
 main footer{
@@ -105,36 +102,44 @@ main footer{
 {
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#fcdfdb;
-    
+    width: 100%;
+    height: 260px; 
+}
+
+#article1 h2 {
+    background:linear-gradient(0xF15761, 0xF7916D)
 }
 
 #article2
 {
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#fff5fe;
-    
+    width: 100%;
+    height: 260px;
 }
 
 #article3
 {
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#f9f9f9;
-    
+    width: 100%;
+    height: 260px;
 }
 
 #article4
 {
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#f9f9f9;
-    
+    width: 100%;
+    height: 260px;
 }
 
 /*bouton prochainement*/
 
 aside{
     display:flex;
-    
     justify-content:center;
+    margin-top: 20px;
 }
 
 #btn{
