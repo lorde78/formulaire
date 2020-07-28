@@ -90,14 +90,18 @@ article ul li{
     margin: 2% auto;
 }
 
-article>ul>li>a, article>ul>li>a:hover, article>ul>li>a:visited{
+article a, article a:hover, article a:visited{
     text-decoration: none;
 }
 
 main footer{
     flex:1 1 auto;
 }
-
+#article1 ul li a h2
+{
+    text-decoration: none;
+    color:rgb(3, 3, 7)
+}
 #article1
 {
     box-shadow: 1px 1px 12px #d0d0d0;
@@ -106,8 +110,14 @@ main footer{
     height: 260px; 
 }
 
+#article1 h2{
+    background: linear-gradient(to right, #F15761, #F7916D);
+    content: '';
+    display: block;
+  }
+
 #article1 h2 {
-    background:linear-gradient(0xF15761, 0xF7916D)
+    background:linear-gradient(0xF15761, 0xF7916D);
 }
 
 #article2
