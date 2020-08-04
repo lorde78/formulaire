@@ -18,13 +18,43 @@
     src: url('font/Grotesk Light.ttf');
 }
 
+@font-face{
+    font-family: 'Devonshire Regular';
+    src: url('font/Devonshire-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Baneberry-Regular';
+    src: url('font/Baneberry-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'CroissantOne-Regular';
+    src: url('font/CroissantOne-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'Ledger-Regular';
+    src: url('font/Ledger-Regular.ttf')
+}
+
+@Font-face{
+    font-family:'DancingScript-Regular';
+    src: url('font/DancingScript-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'KaushanScript-Regular';
+    src: url('font/KaushanScript-Regular.ttf');
+}
+
 html{
     margin:auto;
     height:auto;
 }
 
 body{
-    height: 937px;
+    
     margin:auto;
     display:flex;
     flex-direction:column;
@@ -36,7 +66,6 @@ body{
 header{
     display:flex;
     justify-content: center;
-    font-family: 'SourceSansPro-Semibold';
     background-color:#579C87;
 }
 
@@ -57,6 +86,7 @@ main{
     display:flex;
     flex-direction: column;
     width: auto;
+    margin-top: 30px;
 }
 
 article{
@@ -70,6 +100,7 @@ article{
 article h2{
     display:flex;
     justify-content: center;
+    margin-top: 0px;
 }
 
 article h3{
@@ -89,6 +120,7 @@ article ul li{
     display: flex;
     margin: 2% auto;
     width:45%;
+    margin-bottom: 16px;
 }
 
 article a, article a:hover, article a:visited{
@@ -114,14 +146,30 @@ main footer{
 {
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#fcdfdb;
-    height: 260px;
-    width: 90%;
+    height: 18em;
+    width: 85%;
 }
 
-#article1 h2{
+#article1::before{
+    content : "\00266C";
     background:-webkit-linear-gradient(left, #F15761, #F7916D);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    justify-content:center;
+    display:flex;
+    font-size: 3em;
+    padding-top: 60px;
+}
+
+#article1 h2{
+    color: #3C1218;
+    font-family: 'Devonshire Regular';
+    font-size:20px;
+}
+
+#article1 h3{
+    color: #3C1218;
+    font-family:'Baneberry-Regular';  
 }
 
 /*Menu n°2*/
@@ -130,8 +178,24 @@ main footer{
 {
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#fff5fe;
-    width: 90%;
-    height: 260px;
+    width: 85%;
+    height: 18em;
+}
+
+#article2 h2{
+    background:-webkit-linear-gradient(left, #D8852E, #905BFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-content:center;
+    display:flex;
+    font-family: 'CroissantOne-Regular';
+    font-size: 14px;
+    padding-top: 120px;
+}
+
+#article2 h3{
+    font-family: 'Ledger-Regular';
+    color:#C77412;
 }
 
 /*Menu n°3*/
@@ -140,8 +204,24 @@ main footer{
 {
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#f9f9f9;
-    width: 90%;
-    height: 260px;
+    width: 85%;
+    height: 18em;
+}
+
+#article3 h2{
+    background:-webkit-linear-gradient(left, #344EBF, #5194CA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-content:center;
+    display:flex;
+    font-family:'DancingScript-Regular';
+    font-size: 18px;
+    padding-top: 110px;
+}
+
+#article3 h3{
+    font-family: 'Ledger-Regular';
+    color:#3B95DA;
 }
 
 /*Menu n°4*/
@@ -150,8 +230,24 @@ main footer{
 {
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#f9f9f9;
-    width: 90%;
-    height: 260px;
+    width: 85%;
+    height: 18em;
+}
+
+#article4 h2{
+    background:-webkit-linear-gradient(left, #63995F, #C1FA8E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-content:center;
+    display:flex;
+    font-family:'DancingScript-Regular';
+    font-size: 18px;
+    padding-top: 110px;
+}
+
+#article4 h3{
+    font-family: 'Ledger-Regular';
+    color:#A3CD91;
 }
 
 /*bouton prochainement*/
@@ -175,7 +271,7 @@ aside{
 }
 
 #btn p{
-  display:flex;
+    display:flex;
     align-items:center;
     margin:0px;
 }
