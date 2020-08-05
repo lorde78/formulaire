@@ -121,6 +121,7 @@ article ul li{
     margin: 2% auto;
     width:45%;
     margin-bottom: 16px;
+    margin-right: 0px;
 }
 
 article a, article a:hover, article a:visited{
@@ -220,7 +221,7 @@ main footer{
 }
 
 #article3 h3{
-    font-family: 'Ledger-Regular';
+    font-family: 'KaushanScript-Regular';
     color:#3B95DA;
 }
 
@@ -246,7 +247,7 @@ main footer{
 }
 
 #article4 h3{
-    font-family: 'Ledger-Regular';
+    font-family: 'KaushanScript-Regular';
     color:#A3CD91;
 }
 
