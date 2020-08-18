@@ -256,6 +256,7 @@ aside{
     display:flex;
     justify-content:center;
     margin-top: 20px;
+    height: 145px; /*bouton qui ne s'affichait pas donc j'ai du ajouter une hauteur pour pouvoir scroll down*/
 }
 
 #btn{
@@ -322,11 +323,15 @@ section h3{
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#fcdfdb;
     justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 #enchantee h2 {
+    text-align:center;
+}
+
+#enchantee h4{
     text-align:center;
 }
 
@@ -336,34 +341,16 @@ section h3{
     justify-content:center;
 }
 
-#prix_prelude{
-    
-}
-
 #point_orgue {
     display: flex;
     flex-direction:row;
     justify-content:center;
-    align-content:flex-start;
 }
 
-#point_orgue_text{
-    
-}
-
-#prix_orgue {
-    
-}
-
-#mouvement_final{
+#mouvement{
     display: flex;
     flex-direction:row;
     justify-content:center;
-}
-
-#mouvement_text{
-    display: flex;
-    flex-direction:column;
 }
 
 /*Mise en forme du formulaire de contact*/
@@ -372,6 +359,7 @@ form#myform.cssform{
     justify-content: center;
     align-items: center;
 }
+
 .cssform{
     display: flex;
     flex-direction: column;
@@ -385,23 +373,23 @@ form#myform.cssform{
     padding-left: 155px; /*width of left column containing the label elements*/
     border-top: 1px dashed gray;
     height: 1%;
-    }
+}
     
     .cssform label{
     font-weight: bold;
     float: left;
     margin-left: -155px; /*width of left column*/
     width: 150px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
-    }
+}
     
     .cssform input[type=&quot;text&quot;]{ /*width of text boxes. IE6 does not understand this attribute*/
     width: 180px;
-    }
+}
     
     .cssform textarea{
     width: 250px;
     height: 150px;
-    }
+}y
     
     /*.threepxfix class below:
     Targets IE6- ONLY. Adds 3 pixel indent for multi-line form contents.
