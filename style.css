@@ -336,9 +336,18 @@ section h3{
 }
 
 #prelude {
-    display: flex;
-    flex-direction:row;
+    margin-left: 20px;
+    margin-right: 20px;
     justify-content:center;
+}
+
+#prelude p {
+    text-align: right;
+    clear: both;
+}
+
+#prelude p span {
+    float: left;
 }
 
 #point_orgue {
