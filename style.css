@@ -59,6 +59,7 @@ body{
     display:flex;
     flex-direction:column;
     font-family: 'SourceSansPro-Regular';
+    margin-bottom: 90px;
 } 
 
 /*le header*/
@@ -90,7 +91,6 @@ main{
 }
 
 article{
-    width:30%;
     flex-direction:column;
     margin:auto;
 }
@@ -256,7 +256,6 @@ aside{
     display:flex;
     justify-content:center;
     margin-top: 20px;
-    height: 145px; /*bouton qui ne s'affichait pas donc j'ai du ajouter une hauteur pour pouvoir scroll down*/
 }
 
 #btn{
@@ -302,66 +301,6 @@ nav a{
     color: #FDCB46;
 }
 
-/*page du menu 1 sera surement comtpatible avec les autres sections des autres pages*/
-
-section{
-    display:flex;
-    flex-direction:column;
-}
-
-section h1 {
-    text-align:center;
-}
-
-section h3{
-    text-align:center;
-}
-
-#enchantee {
-    display:flex;
-    flex-direction:column;
-    box-shadow: 1px 1px 12px #d0d0d0;
-    background-color:#fcdfdb;
-    justify-content: space-around;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-#enchantee h2 {
-    text-align:center;
-}
-
-#enchantee h4{
-    text-align:center;
-}
-
-#prelude {
-    margin-left: 20px;
-    margin-right: 20px;
-    justify-content:center;
-}
-
-#prelude p {
-    text-align: right;
-    clear: both;
-}
-
-#prelude p span {
-    float: left;
-}
-
-#point_orgue {
-    display: flex;
-    flex-direction:row;
-    justify-content:center;
-}
-
-#mouvement{
-    display: flex;
-    flex-direction:row;
-    justify-content:center;
-}
-
 /*Mise en forme du formulaire de contact*/
 
 form#myform.cssform{
@@ -398,7 +337,7 @@ form#myform.cssform{
     .cssform textarea{
     width: 250px;
     height: 150px;
-}y
+}
     
     /*.threepxfix class below:
     Targets IE6- ONLY. Adds 3 pixel indent for multi-line form contents.
