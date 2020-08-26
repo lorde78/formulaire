@@ -1,0 +1,39 @@
+section{
+    display:flex;
+    flex-direction:column;
+}
+
+section h1 {
+    text-align:center;
+}
+
+section h2{
+    text-align:center;
+}
+
+#chic {
+    display:flex;
+    flex-direction:column;
+    box-shadow: 1px 1px 12px #d0d0d0;
+    background-color:#fcdfdb;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#col1{
+    float:left;
+    width: 80%;
+    margin-left: 30px;
+}
+
+#col2{
+    float:right;
+    margin-right:30px;
+}
+
+
+#chic h2 {
+    text-align:center;
+}
+

@@ -152,7 +152,7 @@ main footer{
 
 #article1::before{
     content : "\00266C";
-    background:-webkit-linear-gradient(left, #F15761, #F7916D);
+    background:-webkit-linear-gradient(135deg, #F15761, #F7916D);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     justify-content:center;
