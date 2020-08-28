@@ -59,6 +59,7 @@ body{
     display:flex;
     flex-direction:column;
     font-family: 'SourceSansPro-Regular';
+    margin-bottom: 90px;
 } 
 
 /*le header*/
@@ -90,7 +91,6 @@ main{
 }
 
 article{
-    width:30%;
     flex-direction:column;
     margin:auto;
 }
@@ -302,67 +302,49 @@ nav a{
     color: #FDCB46;
 }
 
-/*page du menu 1 sera surement comtpatible avec les autres sections des autres pages*/
+/*Mise en forme du formulaire de contact*/
 
-section{
-    display:flex;
-    flex-direction:column;
+form#myform.cssform{
+    justify-content: center;
+    align-items: center;
 }
 
-section h1 {
-    text-align:center;
-}
-
-section h3{
-    text-align:center;
-}
-
-#enchantee {
-    display:flex;
-    flex-direction:column;
-    box-shadow: 1px 1px 12px #d0d0d0;
-    background-color:#fcdfdb;
-    justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#enchantee h2 {
-    text-align:center;
-}
-
-#prelude {
+.cssform{
     display: flex;
-    flex-direction:row;
-    justify-content:center;
+    flex-direction: column;
 }
 
-#prix_prelude{
+.cssform p{
+    width: 300px;
+    clear: left;
+    margin: 0;
+    padding: 5px 0 8px 0;
+    padding-left: 155px; /*width of left column containing the label elements*/
+    border-top: 1px dashed gray;
+    height: 1%;
+}
     
+    .cssform label{
+    font-weight: bold;
+    float: left;
+    margin-left: -155px; /*width of left column*/
+    width: 150px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
 }
-
-#point_orgue {
-    display: flex;
-    flex-direction:row;
-    justify-content:center;
-    align-content:flex-start;
-}
-
-#point_orgue_text{
     
+    .cssform input[type=&quot;text&quot;]{ /*width of text boxes. IE6 does not understand this attribute*/
+    width: 180px;
 }
-
-#prix_orgue {
     
+    .cssform textarea{
+    width: 250px;
+    height: 150px;
 }
-
-#mouvement_final{
-    display: flex;
-    flex-direction:row;
-    justify-content:center;
-}
-
-#mouvement_text{
-    display: flex;
-    flex-direction:column;
-}
+    
+    /*.threepxfix class below:
+    Targets IE6- ONLY. Adds 3 pixel indent for multi-line form contents.
+    to account for 3 pixel bug: http://www.positioniseverything.net/explorer/threepxtest.html
+    */
+    
+    * html .threepxfix{
+    margin-left: 3px;
+    } 
