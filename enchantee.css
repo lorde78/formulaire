@@ -1,14 +1,21 @@
 section{
     display:flex;
     flex-direction:column;
+    color: #3C1218;
+    font-family: 'Devonshire Regular';
 }
 
 section h1 {
     text-align:center;
+    font-family: 'SourceSansPro-Regular';
+    color:black;
 }
 
 section h3{
     text-align:center;
+    color: #3C1218;
+    font-family: 'Devonshire Regular';
+    font-size: 20px;
 }
 
 #enchantee {
@@ -17,25 +24,57 @@ section h3{
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#fcdfdb;
     justify-content: space-around;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+#enchantee h2 {
+    display:flex;
+    color: #3C1218;
+    font-family: 'Devonshire Regular';
+    font-size:35px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#enchantee h2::before {
+    content: "\00266C";
+    background: -webkit-linear-gradient(left, #F15761, #F7916D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    width: 71%;
+}
+
+#article1 h2 {
+    color: #3C1218;
+    font-family: 'Devonshire Regular';
+    font-size: 20px;
 }
 
 #col1{
     float:left;
     width: 80%;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 
 #col2{
     float:right;
-    margin-right:30px;
-}
-
-#enchantee h2 {
-    text-align:center;
+    margin-right: 35px;
 }
 
 #enchantee h4{
-    text-align:center;
+    display:flex;
+    justify-content: center;
+}
+
+#enchantee h4::before{
+    content: "\00266C";
+    background: -webkit-linear-gradient(left, #F15761, #F7916D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    font-size: 1em;
 }
