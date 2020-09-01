@@ -30,7 +30,7 @@ section h1 {
     margin-left: 35px;
     margin-right: 35px;
 }
-}
+
 
 h3:after {
     margin: 0 0 0 20px;
@@ -64,6 +64,7 @@ h3:after {
     justify-content: center;
     font-size: 1.5em;
     width: 71%;
+    transform: skew(3deg, -16deg) scale(1.2, 1);
 }
 
 #article1 h2 {
@@ -95,5 +96,7 @@ h3:after {
     -webkit-text-fill-color: transparent;
     display: flex;
     font-size: 1em;
+    transform: skew(3deg, -16deg) scale(1.2, 1);
+    margin-right: 5px;
 }
 
