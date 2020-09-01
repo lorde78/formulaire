@@ -90,25 +90,25 @@ main{
     margin-top: 30px;
 }
 
-article{
+#index{
     flex-direction:column;
     margin:auto;
 }
 
 /*les menus*/
 
-article h2{
+#index h2{
     display:flex;
     justify-content: center;
     margin-top: 0px;
 }
 
-article h3{
+#index h3{
     display:flex;
     justify-content:center;
 }
 
-article ul{
+#index ul{
     list-style-type: none;
     display:flex;
     flex-flow:wrap;
@@ -116,7 +116,7 @@ article ul{
     margin: 0px;
 }
 
-article ul li{
+#index ul li{
     display: flex;
     margin: 2% auto;
     width:45%;
@@ -124,7 +124,7 @@ article ul li{
     margin-right: 0px;
 }
 
-article a, article a:hover, article a:visited{
+#index a, #index a:hover, #index a:visited{
     text-decoration: none;
     color:black;
     display:block;

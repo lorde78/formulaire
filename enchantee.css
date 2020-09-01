@@ -11,24 +11,42 @@ section h1 {
     color:black;
 }
 
-section h3{
-    text-align:center;
+#menu h3{
     color: #3C1218;
     font-family: 'Devonshire Regular';
     font-size: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-#enchantee {
+#menu h3:before, #menu h3:after {
+    content: '';
+    border-top: 2px solid;
+    width:80%;
+    flex: 1 0 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+}
+
+h3:after {
+    margin: 0 0 0 20px;
+}
+
+#menu {
     display:flex;
     flex-direction:column;
     box-shadow: 1px 1px 12px #d0d0d0;
     background-color:#fcdfdb;
     justify-content: space-around;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
-#enchantee h2 {
+#menu h2 {
     display:flex;
     color: #3C1218;
     font-family: 'Devonshire Regular';
@@ -37,7 +55,7 @@ section h3{
     flex-wrap: wrap;
 }
 
-#enchantee h2::before {
+#menu h2::before {
     content: "\00266C";
     background: -webkit-linear-gradient(left, #F15761, #F7916D);
     -webkit-background-clip: text;
@@ -54,23 +72,23 @@ section h3{
     font-size: 20px;
 }
 
-#col1{
+.col1{
     float:left;
     width: 80%;
     margin-left: 35px;
 }
 
-#col2{
+.col2{
     float:right;
     margin-right: 35px;
 }
 
-#enchantee h4{
+#menu h4{
     display:flex;
     justify-content: center;
 }
 
-#enchantee h4::before{
+#menu h4::before{
     content: "\00266C";
     background: -webkit-linear-gradient(left, #F15761, #F7916D);
     -webkit-background-clip: text;
@@ -78,3 +96,4 @@ section h3{
     display: flex;
     font-size: 1em;
 }
+
