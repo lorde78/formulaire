@@ -2,3 +2,13 @@ section h1{
     display:flex;
     justify-content:center;
 }
+
+label.homme{
+    float: right;
+    margin-left: 0px;
+}
+
+label.femme{
+    float:right;
+    margin-right:0px;
+}

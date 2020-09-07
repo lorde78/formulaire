@@ -339,12 +339,6 @@ form#myform.cssform{
     width: 250px;
     height: 150px;
 }
-    
-    /*.threepxfix class below:
-    Targets IE6- ONLY. Adds 3 pixel indent for multi-line form contents.
-    to account for 3 pixel bug: http://www.positioniseverything.net/explorer/threepxtest.html
-    */
-    
     * html .threepxfix{
     margin-left: 3px;
-    } 
+    }
