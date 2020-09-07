@@ -1,0 +1,28 @@
+article h1{
+    display:flex;
+    justify-content:center;
+    font-family: 'Grotesk Medium';
+    color: #FDCB46;
+    font-size:20px;
+}
+
+article{
+    display:flex;
+    flex-direction:column;
+}
+
+#greetings{
+    border-radius: 6px 6px 6px 6px;
+    background-color:#579C87;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+article p{
+    font-family: 'Grotesk Light';
+    color: #FDCB46;
+    display:flex;
+    justify-content:center;
+    font-size:18px;
+}
