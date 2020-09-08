@@ -160,6 +160,7 @@ main footer{
     display:flex;
     font-size: 3em;
     padding-top: 60px;
+    transform: skew(3deg, -16deg) scale(1.2, 1);
 }
 
 #article1 h2{

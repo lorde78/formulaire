@@ -1,0 +1,15 @@
+article#adresse {
+    width: 7%;
+}
+
+article#info{
+    white-space: pre-line;
+}
+
+article#sup{
+    width: 95%;
+}
+
+section p{
+    margin:0px;
+}
