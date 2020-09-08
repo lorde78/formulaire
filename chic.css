@@ -1,39 +1,80 @@
 section{
     display:flex;
     flex-direction:column;
+    font-family: 'CroissantOne-Regular';
 }
 
 section h1 {
-    text-align:center;
+    display:none;
 }
 
-section h2{
-    text-align:center;
+#menu h3{
+    font-size: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'CroissantOne-Regular';
 }
 
-#chic {
+#menu h3:before, #menu h3:after {
+    content: '';
+    border-top: 2px solid;
+    width:80%;
+    flex: 1 0 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+
+h3:after {
+    margin: 0 0 0 20px;
+}
+
+h2{
+    background:linear-gradient(45deg, #D8852E, #905BFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display:flex;
+    justify-content:center;
+    font-family: 'CroissantOne-Regular';
+    
+}
+
+#menu {
     display:flex;
     flex-direction:column;
     box-shadow: 1px 1px 12px #d0d0d0;
-    background-color:#fcdfdb;
-    justify-content: space-around;
-    margin-left: 25%;
-    margin-right: 25%;
+    background-color:#fff;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2%;
+    height: 702px;
 }
 
-#col1{
+.col1{
     float:left;
     width: 80%;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 
-#col2{
+.col2{
     float:right;
-    margin-right:30px;
+    margin-right: 35px;
+}
+
+#starter{
+    color:#C67412;
+}
+
+#dish{
+    color:#A56799;
+}
+
+#desert{
+    color:#6E4CCC;
 }
 
 
-#chic h2 {
-    text-align:center;
-}
 
