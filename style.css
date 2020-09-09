@@ -25,22 +25,22 @@
 
 @font-face{
     font-family: 'Baneberry-Regular';
-    src: url('font/Baneberry-Regular.ttf')
+    src: url('font/Baneberry-Regular.ttf');
 }
 
 @font-face{
     font-family: 'CroissantOne-Regular';
-    src: url('font/CroissantOne-Regular.ttf')
+    src: url('font/CroissantOne-Regular.ttf');
 }
 
 @font-face{
     font-family: 'Ledger-Regular';
-    src: url('font/Ledger-Regular.ttf')
+    src: url('font/Ledger-Regular.ttf');
 }
 
 @Font-face{
     font-family:'DancingScript-Regular';
-    src: url('font/DancingScript-Regular.ttf')
+    src: url('font/DancingScript-Regular.ttf');
 }
 
 @font-face{
