@@ -149,6 +149,15 @@ main footer{
     background-color:#fcdfdb;
     height: 18em;
     width: 85%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#article1:hover{
+    -webkit-transform: scale(1.25);
+	transform: scale(1.25);
 }
 
 #article1::before{
@@ -182,6 +191,15 @@ main footer{
     background-color:#fff5fe;
     width: 85%;
     height: 18em;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#article2:hover{
+    -webkit-transform: scale(1.25);
+	transform: scale(1.25);
 }
 
 #article2 h2{
@@ -208,6 +226,15 @@ main footer{
     background-color:#f9f9f9;
     width: 85%;
     height: 18em;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#article3:hover{
+    -webkit-transform: scale(1.25);
+	transform: scale(1.25);
 }
 
 #article3 h2{
@@ -234,6 +261,15 @@ main footer{
     background-color:#f9f9f9;
     width: 85%;
     height: 18em;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#article4:hover{
+    -webkit-transform: scale(1.25);
+	transform: scale(1.25);
 }
 
 #article4 h2{
