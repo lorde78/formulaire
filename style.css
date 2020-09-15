@@ -124,6 +124,7 @@ main{
     width:45%;
     margin-bottom: 16px;
     margin-right: 0px;
+    margin-left: 0px;
 }
 
 #index a, #index a:hover, #index a:visited{
@@ -154,7 +155,7 @@ main footer{
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 #article1:hover{
@@ -164,22 +165,19 @@ main footer{
     opacity:0.85;
 }
 
-#article1::before{
-    content : "\00266C";
-    background:-webkit-linear-gradient(left, #F15761, #F7916D);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    justify-content:center;
-    display:flex;
-    font-size: 3em;
-    padding-top: 60px;
-    transform: skew(3deg, -16deg) scale(1.2, 1);
+#article1 img{
+    display:block;
+    margin:0 auto;
+    width: 25%;
+    padding-top: 70px;
 }
 
 #article1 h2{
     color: #3C1218;
     font-family: 'Devonshire Regular';
-    font-size:20px;
+    display:flex;
+    justify-content:center;
+    font-size: 18px;
 }
 
 #article1 h3{

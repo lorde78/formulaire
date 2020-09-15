@@ -22,18 +22,27 @@ section h1 {
     text-align: center;
 }
 
-#menu h3:before, #menu h3:after {
-    content: '';
-    border-top: 2px solid;
-    width:80%;
-    flex: 1 0 20px;
-    margin-left: 35px;
-    margin-right: 35px;
-}
 
 
 h3:after {
-    margin: 0 0 0 20px;
+    content:url(img/brancheenchantédroite.PNG);
+    margin-right:10px;
+}
+
+.grandenote{
+    width: 15%;
+    margin-top: 15px;
+    display:flex;
+}
+
+.petitenote {
+    width: 5%;
+    display:flex;
+}
+
+h3:before{
+    content:url(img/brancheenchantédroite.PNG);
+    margin-left:10px;
 }
 
 #menu {
@@ -54,16 +63,7 @@ h3:after {
     font-size:35px;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-#menu h2::before {
-    content: "\00266C";
-    background: -webkit-linear-gradient(left, #F15761, #F7916D);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: flex;
-    font-size: 1.5em;
-    transform: skew(3deg, -16deg) scale(1.2, 1);
+    margin-top: 0px;
 }
 
 #article1 h2 {
@@ -88,14 +88,4 @@ h3:after {
     justify-content: center;
 }
 
-#menu h4::before{
-    content: "\00266C";
-    background: -webkit-linear-gradient(left, #F15761, #F7916D);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: flex;
-    font-size: 1em;
-    transform: skew(3deg, -16deg) scale(1.2, 1);
-    margin-right: 5px;
-}
 
