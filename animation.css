@@ -1,0 +1,29 @@
+#btn {
+  font-family: 'Grotesk Light';
+  background-color: #579C87;
+  color: #FDCB46;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  border-radius: 6px 6px 6px 6px;
+  width: 18%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 48px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 1000ms;
+          transition-duration: 1000ms;
+}
+
+#btn:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+/*# sourceMappingURL=animation.css.map */

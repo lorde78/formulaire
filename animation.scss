@@ -1,0 +1,17 @@
+#btn{
+    font-family: 'Grotesk Light';
+    background-color:#579C87;
+    color: #FDCB46;
+    display: flex;
+    font-size: 30px;
+    border-radius: 6px 6px 6px 6px;
+    width: 18%;
+    justify-content:center;
+    height:48px;
+    transform:scale(1);
+    transition-property:transform;
+    transition-duration:1000ms;
+    &:hover {
+        transform:scale(1.15);
+    }
+}

@@ -1,3 +1,5 @@
+@import "./animation.scss";
+
 @font-face{
     font-family: 'SourceSansPro-Regular';
     src: url('font/SourceSansPro-Regular.otf');
@@ -157,7 +159,9 @@ main footer{
 
 #article1:hover{
     -webkit-transform: scale(1.25);
-	transform: scale(1.25);
+    transform: scale(1.25);
+    transition: 0.8s;
+    opacity:0.85;
 }
 
 #article1::before{
@@ -199,7 +203,9 @@ main footer{
 
 #article2:hover{
     -webkit-transform: scale(1.25);
-	transform: scale(1.25);
+    transform: scale(1.25);
+    transition: 0.8s;
+    opacity:0.85;
 }
 
 #article2 h2{
@@ -234,7 +240,9 @@ main footer{
 
 #article3:hover{
     -webkit-transform: scale(1.25);
-	transform: scale(1.25);
+    transform: scale(1.25);
+    transition: 0.8s;
+    opacity:0.85;
 }
 
 #article3 h2{
@@ -269,7 +277,9 @@ main footer{
 
 #article4:hover{
     -webkit-transform: scale(1.25);
-	transform: scale(1.25);
+    transform: scale(1.25);
+    transition: 0.8s;
+    opacity:0.85;
 }
 
 #article4 h2{
@@ -311,8 +321,16 @@ aside{
 #btn p{
     display:flex;
     align-items:center;
-    margin:0px;
+    margin-top:0px;
+    margin-right: 5px;
+    margin-left:0px;
+    margin-bottom:0px;
+    
 }
+
+#btn p:after {
+}
+
 
 /*Footer et boutons de navigations en bas de pages*/
 
