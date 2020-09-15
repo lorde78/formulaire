@@ -306,18 +306,6 @@ aside{
     margin-top: 25px;
 }
 
-#btn{
-    font-family: 'Grotesk Light';
-    background-color:#579C87;
-    color: #FDCB46;
-    display: flex;
-    font-size: 30px;
-    border-radius: 6px 6px 6px 6px;
-    width: 18%;
-    justify-content:center;
-    height:48px;
-}
-
 #btn p{
     display:flex;
     align-items:center;
@@ -325,7 +313,6 @@ aside{
     margin-right: 5px;
     margin-left:0px;
     margin-bottom:0px;
-    
 }
 
 #btn p:after {
