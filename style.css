@@ -196,7 +196,7 @@ main footer{
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 #article2:hover{
@@ -233,7 +233,7 @@ main footer{
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 #article3:hover{
@@ -270,7 +270,7 @@ main footer{
     -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 #article4:hover{
