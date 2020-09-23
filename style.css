@@ -94,7 +94,8 @@ main{
 
 #index{
     flex-direction:column;
-    margin:auto;
+    margin-left: 746px;
+    margin-right: 665px;
 }
 
 /*les menus*/
