@@ -16,38 +16,39 @@ section h1 {
     align-items: center;
     text-align: center;
     font-family:'DancingScript-Regular';
+    justify-content: space-around;
+    font-weight: unset;
+    line-height: 0px;
 }
 
-#menu h3:before, #menu h3:after {
-    content: '';
-    border-top: 2px solid;
-    width:80%;
-    flex: 1 0 20px;
-    margin-left: 35px;
-    margin-right: 35px;
+#menu h3:before{
+    content:url(img/papillesbleusombregauche.png);
+    display:flex;
 }
 
-
-h3:after {
-    margin: 0 0 0 20px;
+#menu h3:after{
+    content:url(img/papillesbleusombredroit.png);
+    display:flex;
 }
 
 h2{
     background:-webkit-linear-gradient(45deg, #344EBF, #5194CA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size:24px;
     display:flex;
     justify-content: center;
-    width: 32%;
     font-family:'DancingScript-Regular';
+    font-size: 53px;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom:30px;
 }
 
 #menu {
     display:flex;
     flex-direction:column;
     box-shadow: 1px 1px 12px #d0d0d0;
-    background-color:#fff;
+    background-color: #EDEFEF;
     margin-left: 35%;
     margin-right: 35%;
     margin-top: 2%;
@@ -57,15 +58,28 @@ h2{
 
 .col1{
     float:left;
-    width: 80%;
-    margin-left: 35px;
+    width: 70%;
+    margin-left: 60px;
 }
 
 .col2{
     float:right;
-    margin-right: 35px;
+    margin-right: 60px;
 }
 
+#starter {
+    margin-bottom:20px;
+    line-height: 30px;
+}
 
+#dish{
+    margin-bottom:20px;
+    line-height: 30px;
+}
+
+#desert{
+    margin-bottom:20px;
+    line-height: 30px;
+}
 
 
