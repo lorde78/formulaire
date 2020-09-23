@@ -17,30 +17,38 @@ section h1 {
     font-size: 20px;
     display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-bottom: 0px;
+    justify-content: space-around;
 }
 
 
 
 h3:after {
     content:url(img/brancheenchantédroite.PNG);
+    display:flex;
 }
 
 .grandenote{
-    width: 15%;
+    width: 14%;
     margin-top: 15px;
     display:flex;
+    align-self: center;
 }
 
 .petitenote {
-    width: 5%;
-    display:flex;
+    width: 8%;
+    display: inline-block;
+    margin: -11px 0px 0 0;
+    float: left;
 }
 
 h3:before{
-    content:url(img/brancheenchantédroite.PNG);
+    content:url(img/brancheenchantégauche.PNG);
+    display:flex;
+}
+
+article#starter, article#dish, article#desert{
+    margin-bottom: 20px;
 }
 
 #menu {
@@ -51,7 +59,6 @@ h3:before{
     justify-content: space-around;
     margin-left: 35%;
     margin-right: 35%;
-    align-items: center;
 }
 
 #menu h2 {
@@ -62,6 +69,7 @@ h3:before{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #article1 h2 {
@@ -84,6 +92,9 @@ h3:before{
 #menu h4{
     display:flex;
     justify-content: center;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
+
 
 

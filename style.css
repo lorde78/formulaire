@@ -120,11 +120,10 @@ main{
 
 #index ul li{
     display: flex;
-    margin: 2% auto;
-    width:45%;
-    margin-bottom: 16px;
+    margin-bottom: 25px;
     margin-right: 0px;
     margin-left: 0px;
+    width: 45%;
 }
 
 #index a, #index a:hover, #index a:visited{

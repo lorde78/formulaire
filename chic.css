@@ -9,31 +9,56 @@ section h1 {
 }
 
 #menu h3{
-    font-size: 20px;
+    font-size: 12px;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'CroissantOne-Regular';
-}
-
-#menu h3:before, #menu h3:after {
-    content: '';
-    border-top: 2px solid;
-    width:80%;
-    flex: 1 0 20px;
-    margin-left: 35px;
-    margin-right: 35px;
+    line-height: normal;
+    
 }
 
 
-h3:after {
-    margin: 0 0 0 20px;
+#starter h3:before{
+    content:url(img/brancheorangegauche.png);
+    display:flex;
+    margin: 12px 0px 0 0;
+}
+
+#starter h3:after{
+    content:url(img/brancheorangedroite.png);
+    display:flex;
+    margin: 9px 0px 0 0;
+}
+
+#dish h3:after{
+        content:url(img/branchecôtédroit.PNG);
+        display:flex;
+        margin:10px 0px 0 0;
+}
+
+#dish h3:before{
+    content:url(img/branchevioletgauche.PNG);
+    display:flex;
+    margin: 12px 0px 0 0;
+}
+
+#desert h3:after{
+    content:url(img/branchevioletsombredroit.PNG);
+    display:flex;
+    margin: 10px 0px 0 0;
+}
+
+#desert h3:before{
+    content:url(img/branchevioletsombre.PNG);
+    display:flex;
+    margin: 9px 0px 0 0;
 }
 
 h2{
-    font-size:24px;
+    font-size: 22px;
     background:-webkit-linear-gradient(45deg, #D8852E, #905BFD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -41,18 +66,21 @@ h2{
     width: 50%;
     justify-content:center;
     font-family: 'CroissantOne-Regular';
+    align-self: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 #menu {
     display:flex;
     flex-direction:column;
     box-shadow: 1px 1px 12px #d0d0d0;
-    background-color:#fff;
+    background-color: #FFF5FE;
     margin-left: 35%;
     margin-right: 35%;
     margin-top: 2%;
     height: 702px;
-    align-items: center;
+    
 }
 
 .col1{
@@ -68,14 +96,23 @@ h2{
 
 #starter{
     color:#C67412;
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 30px;
 }
 
 #dish{
     color:#A56799;
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 30px;
 }
 
 #desert{
     color:#6E4CCC;
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 30px;
 }
 
 
