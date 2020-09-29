@@ -341,6 +341,16 @@ nav a{
     text-decoration: none;
     color: #FDCB46;
 }
+nav a:hover{
+    animation: thing 3s infinite;
+}
+        @keyframes thing{
+            0%{transform: rotate(0deg)}
+            3%{transform: rotate(-2deg)}
+            4%{transform: rotate(2deg)}
+            5%{transform: rotate(0deg)}
+            100%{transform: rotate(0deg)}
+        }
 
 /*Mise en forme du formulaire de contact*/
 
@@ -381,4 +391,5 @@ form#myform.cssform{
 }
     * html .threepxfix{
     margin-left: 3px;
-    }
+}
+
