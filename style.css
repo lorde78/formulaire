@@ -89,13 +89,13 @@ main{
     display:flex;
     flex-direction: column;
     width: auto;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #index{
     flex-direction:column;
-    margin-left: 746px;
-    margin-right: 665px;
+    margin-left: 738px;
+    margin-right: 575px;
 }
 
 /*les menus*/
@@ -121,10 +121,10 @@ main{
 
 #index ul li{
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     margin-right: 0px;
     margin-left: 0px;
-    width: 45%;
+    width: 40%;
 }
 
 #index a, #index a:hover, #index a:visited{
@@ -312,7 +312,7 @@ main footer{
 aside{
     display:flex;
     justify-content:center;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 #btn p{
