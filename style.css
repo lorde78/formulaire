@@ -184,7 +184,7 @@ main footer{
     border-bottom: solid 3px #000;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
-    transform-origin:100% 50%
+    transform-origin:100% 50%;
 }
 
 #article1 h2:hover::after { 
