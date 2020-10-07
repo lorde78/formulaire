@@ -1,15 +1,19 @@
 article#adresse {
-    width: 7%;
+    display: flex;
+    margin-right: 230px;
 }
 
 article#info{
-    white-space: pre-line;
+    display: flex;
 }
 
 article#sup{
-    width: 95%;
+    display: flex;
+    margin-left: 307px;
 }
 
-section p{
-    margin:0px;
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
