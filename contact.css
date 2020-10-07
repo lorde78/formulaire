@@ -3,12 +3,16 @@ section h1{
     justify-content:center;
 }
 
-label.homme{
+label.Man{
     float: right;
     margin-left: 0px;
 }
 
-label.femme{
+label.Woman{
     float:right;
     margin-right:0px;
+}
+
+#submit{
+    margin-left: 150px;
 }
